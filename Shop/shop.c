@@ -19,13 +19,8 @@ int main (void)
     item[0].price = 20000;
     item[1].item_name = "Celana";
     item[1].price = 15000;
-
     do
     {
-        // for(int i = 0; i < length; i++)
-        // {
-        //     printf("%s || price: %i\n", item[i].item_name, item[i].price);
-        // }
         printf("1. See item\n");
         printf("2. Add item\n");
         printf("3. Delete Item\n");
@@ -40,7 +35,6 @@ int main (void)
         }
         else if(choice == 2)
         {
-
             int item_add = get_int("How many item you want to add: ");
             // call add item function
             addItem(item_add, length);
@@ -72,7 +66,6 @@ int main (void)
         scanf(" %c", &continues);
     }while(continues == 'Y' || continues == 'y');
 }
-
 void deletion (string delete, int length)
 {
     int index_delete = 0;
@@ -89,7 +82,6 @@ void deletion (string delete, int length)
         item[i].price = item[i+1].price;
     }
 }
-
 void addItem (int add, int length)
 {
 // add item, i = length so we start adding item at the end of length, so if there's 2 item, the i will start at 2 (the item is stored at index 0, and 1)
