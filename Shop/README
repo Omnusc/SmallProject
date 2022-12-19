@@ -1,0 +1,16 @@
+Simple shopping program
+
+This program have 2 item template so all function can be used without adding an item first.
+this program will have 4 function
+1. See item
+   Simple looping through the item struct
+2. Add item
+   Adding item using for loop. User input how many item they want to input and loop where i = length so
+   the loop will start at the end of the array and loop until length + userInput. so if the user want to input 
+   2 item in an array of 5 item
+   i = 5; i < 5+2; i++
+3. Delete Item
+    User input what item they want to delete. Using linear search we searh through the array, and if the array[i] is the same
+    as user input, we take the index of that array and then we change that array to array[i+1]
+4. exit
+    Exit the program
