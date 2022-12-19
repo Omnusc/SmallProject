@@ -1,0 +1,8 @@
+Simple temperature converter
+Celcius(C), Fahrenheit(F), Kelcin
+C >> F
+C >> K
+F >> C
+F >> K
+K >> C
+K >> F
