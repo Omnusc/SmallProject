@@ -33,7 +33,7 @@ int main (void)
         default:
         printf("Error");
     }
-    printf("=%0.1f", result);
+    printf("=%0.1f\n", result);
     printf("Input another number (Y/N) ");
     scanf(" %c", &choice);
     while(choice == 'Y')
