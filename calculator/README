@@ -1,3 +1,18 @@
 the 1st calculator file is just a calculator with addition, substraction, division, multiplication, modulu of 2 number
 the advancecalculator is a calculator  with addition, substraction, division, multiplication, modulu of multiple number
 so 1+30-28+12 can be inputted in the program
+
+the 2.0 Advance Calculator
+The program can take the input of 1st and 2nd number from the user and choose the operation they want
+1st input: 20
+2nd input: 30
+operation: '+'
+after that the program will outpur the result and give user a prompt to input another number
+then the result of the 1st operation will become the 1st number and the user will input the 2nd number
+so 1st operation: 50
+2nd number(user input) : 5
+operation : '/'
+so the last output will be 10.
+
+10+2 = 12
+12*2= 24
