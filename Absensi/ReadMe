@@ -1,0 +1,3 @@
+My first project using php.
+This is attendance website where the user can login and mark their attendance. Then if the user is an admin. They will be redirected to other page
+where they can add user or see the attendance of employee. This website use md5 as password encryption
